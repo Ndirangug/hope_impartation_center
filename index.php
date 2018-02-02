@@ -381,21 +381,25 @@
                     <cms:form role="form" method="post" action="process.php">
                         <div class="form-group">
                             <label for="full_name">Name: </label>
+                            <p class="text-danger val">*required</p>
                             <cms:input class="form-control"  type="text" value="" name="full_name" placeholder="Full Name" id="full_name" />
                         </div>
                         <div class="form-group">
+                            <p class="text-danger val">enter a valid email address</p>
                             <label for="email">Email Address: </label>
-                            <cms:input class="form-control" type="email" value="" name="email" placeholder="yourname@email.end" id="email" />
+                            <cms:input class="form-control" type="text" value="" name="email" placeholder="yourname@email.end" id="email" />
                         </div>
                         <div class="form-group">
+                            <p class="text-danger val">*required</p>
                             <label for="subject">Subject: </label>
                             <cms:input class="form-control" type="text" value="" name="subject" placeholder="subject" id="subject" />
                         </div>
-                         <div class="form-group">
+                        <div class="form-group">
+                            <p class="text-danger val">*required</p>
                             <label for="comments">Comments: </label>
-                            <cms:textarea class="form-control" name="comments" cols="20" rows="3" id="comments" placeholder="your comments here..."></cms:textarea>
+                            <cms:input type="textarea" class="form-control" name="comments" cols="20" rows="3" id="comments" placeholder="your comments here..."></cms:input>
                         </div>
-                        <cms:input class="btn btn-default" type="submit" value="SEND" />
+                        <cms:input class="btn btn-default" name="submit" type="submit" value="SEND" />
                     </cms:form>
                 </div>
                 <div class="col-md-6 map">

@@ -297,3 +297,7 @@ font-weight:700;
 .feedback-form{
     padding-right:2em;
 }
+
+.val{
+    font-size:small;
+}
