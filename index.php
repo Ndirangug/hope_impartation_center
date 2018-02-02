@@ -378,38 +378,45 @@
         <div class="footer">
             <div class="row">
                 <div class="col-md-6 feedback-form">
-                    <cms:form role="form" method="post" action="">
+                    <cms:form action="" role="form" method="post">
                         <div class="form-group">
                             <label for="full_name">Name: </label>
                             <cms:if k_error_fullname>
                                 <p class="text-danger val">*required</p>
                             </cms:if>
-                            <cms:input class="form-control" required="1"  type="text" value="" name="fullname" placeholder="Full Name" id="full_name" />
+                            <cms:input class="form-control" required="1" type="text" value="" name="fullname" placeholder="Full Name" id="full_name"></cms:input>
                         </div>
                         <div class="form-group">
                             <cms:if k_error_email>
                                 <p class="text-danger val">enter a valid email address</p>
                             </cms:if>
-                                <label for="email">Email Address: </label>
-                                <cms:input class="form-control" required="1" validator="email" type="text" value="" name="email" placeholder="yourname@email.end" id="email"></cms:input>
-                            
-                        </div>                       
+                            <label for="email">Email Address: </label>
+                            <cms:input class="form-control" required="1" validator="email" type="text" value="" name="email" placeholder="yourname@email.end" id="email"></cms:input>
+
+                        </div>
                         <div class="form-group">
                             <cms:if k_error_subject>
                                 <p class="text-danger val">*required</p>
-                           <cms:if k_error_email>
-                           <label for="subject">Subject: </label>
-                           <cms:input class="form-control" required="1" type="text" value="" name="subject" placeholder="subject" id="subject"></cms:input>
+                             </cms:if>
+                                    <label for="subject">Subject: </label>
+                                    <cms:input class="form-control" required="1" type="text" value="" name="subject" placeholder="subject" id="subject"></cms:input>
 
-                         </div>
+                        </div>
                         <div class="form-group">
                             <cms:if k_error_comments>
                                 <p class="text-danger val">*required</p>
-                             </cms:if>
-                                <label for="comments">Comments: </label>
-                                <cms:input type="textarea" required="1" class="form-control" name="comments" cols="20" rows="3" id="comments" placeholder="your comments here..."></cms:input>
-                             </div>
-                        <cms:input class="btn btn-default" name="submit" type="submit" value="SEND" />
+                            </cms:if>
+                            <label for="comments">Comments: </label>
+                            <cms:input type="textarea" required="1" class="form-control" name="comments" cols="20" rows="3" id="comments" placeholder="your comments here..."></cms:input>
+                        </div>
+                        <cms:if k_success>
+                            <p class="text-success val">Thanks for your feedback. We'll get back to you soon</p>
+                            <cms:send_mail from=k_email_from to=k_email_to subject="feedback from your site">
+                                The following is an email sent from your site
+                                <cms:show k_success/>
+                            </cms:send_mail>
+                        </cms:if>
+                        <cms:input class="btn btn-default" name="submit" type="submit" value="SEND"></cms:input>
                     </cms:form>
                 </div>
                 <div class="col-md-6 map">
