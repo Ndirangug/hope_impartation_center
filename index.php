@@ -378,25 +378,25 @@
         <div class="footer">
             <div class="row">
                 <div class="col-md-6 feedback-form">
-                    <form role="form" method="post" action="process.php">
+                    <cms:form role="form" method="post" action="process.php">
                         <div class="form-group">
                             <label for="full_name">Name: </label>
-                            <input class="form-control"  type="text" value="" name="full_name" placeholder="Full Name" id="full_name" />
+                            <cms:input class="form-control"  type="text" value="" name="full_name" placeholder="Full Name" id="full_name" />
                         </div>
                         <div class="form-group">
                             <label for="email">Email Address: </label>
-                            <input class="form-control" type="email" value="" name="email" placeholder="yourname@email.end" id="email" />
+                            <cms:input class="form-control" type="email" value="" name="email" placeholder="yourname@email.end" id="email" />
                         </div>
                         <div class="form-group">
                             <label for="subject">Subject: </label>
-                            <input class="form-control" type="text" value="" name="subject" placeholder="subject" id="subject" />
+                            <cms:input class="form-control" type="text" value="" name="subject" placeholder="subject" id="subject" />
                         </div>
                          <div class="form-group">
                             <label for="comments">Comments: </label>
-                            <textarea class="form-control" name="comments" cols="20" rows="3" id="comments" placeholder="your comments here..."></textarea>
+                            <cms:textarea class="form-control" name="comments" cols="20" rows="3" id="comments" placeholder="your comments here..."></cms:textarea>
                         </div>
-                        <input class="btn btn-default" type="submit" value="SEND" />
-                    </form>
+                        <cms:input class="btn btn-default" type="submit" value="SEND" />
+                    </cms:form>
                 </div>
                 <div class="col-md-6 map">
                     <div class="row">
