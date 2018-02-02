@@ -378,27 +378,37 @@
         <div class="footer">
             <div class="row">
                 <div class="col-md-6 feedback-form">
-                    <cms:form role="form" method="post" action="process.php">
+                    <cms:form role="form" method="post" action="">
                         <div class="form-group">
                             <label for="full_name">Name: </label>
-                            <p class="text-danger val">*required</p>
-                            <cms:input class="form-control"  type="text" value="" name="full_name" placeholder="Full Name" id="full_name" />
+                            <cms:if k_error_fullname>
+                                <p class="text-danger val">*required</p>
+                            </cms:if>
+                            <cms:input class="form-control" required="1"  type="text" value="" name="fullname" placeholder="Full Name" id="full_name" />
                         </div>
                         <div class="form-group">
-                            <p class="text-danger val">enter a valid email address</p>
-                            <label for="email">Email Address: </label>
-                            <cms:input class="form-control" type="text" value="" name="email" placeholder="yourname@email.end" id="email" />
-                        </div>
+                            <cms:if k_error_email>
+                                <p class="text-danger val">enter a valid email address</p>
+                            </cms:if>
+                                <label for="email">Email Address: </label>
+                                <cms:input class="form-control" required="1" validator="email" type="text" value="" name="email" placeholder="yourname@email.end" id="email"></cms:input>
+                            
+                        </div>                       
                         <div class="form-group">
-                            <p class="text-danger val">*required</p>
-                            <label for="subject">Subject: </label>
-                            <cms:input class="form-control" type="text" value="" name="subject" placeholder="subject" id="subject" />
-                        </div>
+                            <cms:if k_error_subject>
+                                <p class="text-danger val">*required</p>
+                           <cms:if k_error_email>
+                           <label for="subject">Subject: </label>
+                           <cms:input class="form-control" required="1" type="text" value="" name="subject" placeholder="subject" id="subject"></cms:input>
+
+                         </div>
                         <div class="form-group">
-                            <p class="text-danger val">*required</p>
-                            <label for="comments">Comments: </label>
-                            <cms:input type="textarea" class="form-control" name="comments" cols="20" rows="3" id="comments" placeholder="your comments here..."></cms:input>
-                        </div>
+                            <cms:if k_error_comments>
+                                <p class="text-danger val">*required</p>
+                             </cms:if>
+                                <label for="comments">Comments: </label>
+                                <cms:input type="textarea" required="1" class="form-control" name="comments" cols="20" rows="3" id="comments" placeholder="your comments here..."></cms:input>
+                             </div>
                         <cms:input class="btn btn-default" name="submit" type="submit" value="SEND" />
                     </cms:form>
                 </div>
