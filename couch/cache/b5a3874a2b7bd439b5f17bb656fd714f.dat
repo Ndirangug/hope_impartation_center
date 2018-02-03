@@ -1,4 +1,4 @@
-a:2:{s:9:"mime_type";s:38:"Content-Type: text/html; charset=utf-8";s:11:"cached_html";s:23126:"<!DOCTYPE html>
+a:2:{s:9:"mime_type";s:38:"Content-Type: text/html; charset=utf-8";s:11:"cached_html";s:24071:"<!DOCTYPE html>
 
 <html lang="en">
 <head>
@@ -160,41 +160,41 @@ a:2:{s:9:"mime_type";s:38:"Content-Type: text/html; charset=utf-8";s:11:"cached_
           <!--page1-->
         <div class="item active">
             <div class="row">
-                <div class="col-md-4"> <img class="img-responsive img-thumbnail" src="images/interior.jpg" alt="interior" /></div>
-                <div class="col-md-4"> <img class="img-responsive img-thumbnail" src="images/interior.jpg" alt="interior" /></div>
-                <div class="col-md-4"> <img class="img-responsive img-thumbnail" src="images/interior.jpg" alt="interior" /></div>
+                <div class="col-md-4">  <img class="img-responsive img-thumbnail" src="http://localhost/images/image/church.jpg" alt="interior" /></div>
+                <div class="col-md-4"> <img class="img-responsive img-thumbnail" src="http://localhost/images/image/interior.jpg" alt="interior" /></div>
+                <div class="col-md-4"> <img class="img-responsive img-thumbnail" src="http://localhost/images/image/church.jpg" alt="interior" /></div>
             </div>
              <div class="row">
-                <div class="col-md-4"> <img class="img-responsive img-thumbnail" src="images/interior.jpg" alt="interior" /></div>
-                <div class="col-md-4"> <img class="img-responsive img-thumbnail" src="images/interior.jpg" alt="interior" /></div>
-                <div class="col-md-4"> <img class="img-responsive img-thumbnail" src="images/interior.jpg" alt="interior" /></div>
+                <div class="col-md-4"> <img class="img-responsive img-thumbnail" src="http://localhost/images/image/interior.jpg" alt="interior" /></div>
+                <div class="col-md-4"> <img class="img-responsive img-thumbnail" src="http://localhost/images/image/church.jpg" alt="interior" /></div>
+                <div class="col-md-4"> <img class="img-responsive img-thumbnail" src="http://localhost/images/image/interior.jpg" alt="interior" /></div>
             </div>
         </div>
           <!--page2-->
         <div class="item">
             <div class="row">
-                <div class="col-md-4"> <img class="img-responsive img-thumbnail" src="images/interior.jpg" alt="interior" /></div>
-                <div class="col-md-4"> <img class="img-responsive img-thumbnail" src="images/church.jpg" alt="interior" /></div>
-                <div class="col-md-4"> <img class="img-responsive img-thumbnail" src="images/interior.jpg" alt="interior" /></div>
+                <div class="col-md-4"><img class="img-responsive img-thumbnail" src="http://localhost/images/image/church.jpg" alt="interior" /> </div>
+                <div class="col-md-4"><img class="img-responsive img-thumbnail" src="http://localhost/images/image/interior.jpg" alt="interior" /></div>
+                <div class="col-md-4"><img class="img-responsive img-thumbnail" src="http://localhost/images/image/church.jpg" alt="interior" /></div>
             </div>
              <div class="row">
-                <div class="col-md-4"> <img class="img-responsive img-thumbnail" src="images/church.jpg" alt="interior" /></div>
-                <div class="col-md-4"> <img class="img-responsive img-thumbnail" src="images/interior.jpg" alt="interior" /></div>
-                <div class="col-md-4"> <img class="img-responsive img-thumbnail" src="images/church.jpg" alt="interior" /></div>
+                 <div class="col-md-4"><img class="img-responsive img-thumbnail" src="http://localhost/images/image/interior.jpg" alt="interior" /></div>
+                 <div class="col-md-4"><img class="img-responsive img-thumbnail" src="http://localhost/images/image/church.jpg" alt="interior" /></div>
+                 <div class="col-md-4"> <img class="img-responsive img-thumbnail" src="http://localhost/images/image/interior.jpg" alt="interior" /></div>
             </div>
           
         </div>
           <!--page3-->
          <div class="item">
              <div class="row">
-                <div class="col-md-4"> <img class="img-responsive img-thumbnail" src="images/interior.jpg" alt="interior" /></div>
-                <div class="col-md-4"> <img class="img-responsive img-thumbnail" src="images/church.jpg" alt="interior" /></div>
-                <div class="col-md-4"> <img class="img-responsive img-thumbnail" src="images/interior.jpg" alt="interior" /></div>
+                 <div class="col-md-4">  <img class="img-responsive img-thumbnail" src="http://localhost/images/image/church.jpg" alt="interior" /> </div>
+                 <div class="col-md-4"><img class="img-responsive img-thumbnail" src="http://localhost/images/image/interior.jpg" alt="interior" /></div>
+                 <div class="col-md-4"> <img class="img-responsive img-thumbnail" src="http://localhost/images/image/church.jpg" alt="interior" /> </div>
             </div>
              <div class="row">
-                <div class="col-md-4"> <img class="img-responsive img-thumbnail" src="images/church.jpg" alt="interior" /></div>
-                <div class="col-md-4"> <img class="img-responsive img-thumbnail" src="images/interior.jpg" alt="interior" /></div>
-                <div class="col-md-4"> <img class="img-responsive img-thumbnail" src="images/church.jpg" alt="interior" /></div>
+                 <div class="col-md-4"><img class="img-responsive img-thumbnail" src="http://localhost/images/image/interior.jpg" alt="interior" /></div>
+                 <div class="col-md-4"><img class="img-responsive img-thumbnail" src="http://localhost/images/image/church.jpg" alt="interior" /></div>
+                 <div class="col-md-4"><img class="img-responsive img-thumbnail" src="http://localhost/images/image/interior.jpg" alt="interior" /> </div>
             </div>
           
         </div>
@@ -238,29 +238,33 @@ a:2:{s:9:"mime_type";s:38:"Content-Type: text/html; charset=utf-8";s:11:"cached_
           <div class="item active">
           <div class="row">
               <div class="col-md-6 item-blog-1">
-                  http://localhost/images/image/064bb57dc9fd805823145013739904fd.jpg                      <h4>The New Sanctuary</h4>
+                  <img src="http://localhost/images/image/church.jpg" alt="blog image" />
+                      <h4>The New Sanctuary</h4>
                       <h6 class="text-muted">Author: Hope Impartation Centre</h6>
                       <p>The launching of the ultra modern church sanctuary is to take place on the 1st of yhis month . Come witness this wasemse experience.Dont be left out in the makrking of such an important milestone.</p>
                 </div>
               <div class="col-md-6">
                   <div class="row">
-                      <div class="col-md-12"> 
+                      <div class="col-md-12">
                           <div class="row blog-item-2-entry">
                               <div class="col-md-4">
-                                  <img class="img-responsive" src="images/hug.jpg" alt="Alternate Text" />                                </div>
-                              <div class="col-md-8">
-                                  <h5>Story Title</h5>
-                                  <h6 class="text-muted">Author: First last Name</h6>
-                                  <p>Lorem ipsum deol reo car dieu a aime lomonde quil a dionne. Je suis un garcon de God.Jais dix-neuf ans</p>
+                                  <img class="img-responsive" src="http://localhost/images/image/hug.jpg" alt="Alternate Text" />
                               </div>
+                                  <div class="col-md-8">
+                                      <h5>Story Title</h5>
+                                      <h6 class="text-muted">Author: First last Name</h6>
+                                      <p>Lorem ipsum deol reo car dieu a aime lomonde quil a dionne. Je suis un garcon de God.Jais dix-neuf ans</p>
+                                  </div>
+                              
                           </div>
                       </div>
                   </div>
                   <div class="row">
                       <div class="col-md-12">
-                          <div class="row blog-item-2-entry"">
+                          <div class="row blog-item-2-entry">
                                <div class="col-md-4">
-                                    <img class="img-responsive" src="images/hug.jpg" alt="Alternate Text" />                                </div>
+                                   <img class="img-responsive" src="http://localhost/images/image/hug.jpg " alt="Alternate Text" />
+                                </div>
                               <div class="col-md-8">
                                  <h5>Story Title</h5>
                                   <h6 class="text-muted">Author: First last Name</h6>
@@ -271,9 +275,10 @@ a:2:{s:9:"mime_type";s:38:"Content-Type: text/html; charset=utf-8";s:11:"cached_
                   </div>
                   <div class="row">
                       <div class="col-md-12">
-                          <div class="row blog-item-2-entry"">
+                          <div class="row blog-item-2-entry">
                               <div class="col-md-4">
-                                  <img class="img-responsive" src="images/hug.jpg" alt="Alternate Text" />                               </div>
+                                 <img class="img-responsive" src=" http://localhost/images/image/hug.jpg" alt="Alternate Text" />
+                               </div>
                               <div class="col-md-8">
                                   <h5>Story Title</h5>
                                   <h6 class="text-muted">Author: First last Name</h6>
@@ -282,15 +287,17 @@ a:2:{s:9:"mime_type";s:38:"Content-Type: text/html; charset=utf-8";s:11:"cached_
                           </div>
                       </div>
                   </div>
-              </div>
+              
               
           </div>
+        </div>
         </div>
           <!--page2-->
         <div class="item">
             <div class="row">
               <div class="col-md-6 item-blog-1">
-                  <img src="images/pews.jpg" alt="blog image" />                      <h4>Children Dedication</h4>
+                  <img src="http://localhost/images/image/interior.jpg" alt="blog image" />
+                      <h4>Children Dedication</h4>
                       <h6 class="text-muted">Author: Hope Impartation Centre</h6>
                       <p>As is the tradition, the first sunday of next minth willl be for dediation of our chiuldren. There will ne an anointing service.</p>
 </div>
@@ -299,7 +306,8 @@ a:2:{s:9:"mime_type";s:38:"Content-Type: text/html; charset=utf-8";s:11:"cached_
                       <div class="col-md-12"> 
                           <div class="row blog-item-2-entry">
                               <div class="col-md-4">
-                                  <img class="img-responsive" src="images/hug.jpg" alt="Alternate Text" />                               </div>
+                                  <img class="img-responsive" src="http://localhost/images/image/hug.jpg" alt="Alternate Text" />
+                               </div>
                               <div class="col-md-8">
                                   <h5>Story Title</h5>
                                   <h6 class="text-muted">Author: First last Name</h6>
@@ -312,7 +320,8 @@ a:2:{s:9:"mime_type";s:38:"Content-Type: text/html; charset=utf-8";s:11:"cached_
                       <div class="col-md-12">
                           <div class="row blog-item-2-entry"">
                                <div class="col-md-4">
-                                   <img class="img-responsive" src="images/hug.jpg" alt="Alternate Text" />                               </div>
+                                   <img class="img-responsive" src="http://localhost/images/image/hug.jpg" alt="Alternate Text" />
+                               </div>
                               <div class="col-md-8">
                                   <h5>Story Title</h5>
                                   <h6 class="text-muted">Author: First last Name</h6>
@@ -325,7 +334,8 @@ a:2:{s:9:"mime_type";s:38:"Content-Type: text/html; charset=utf-8";s:11:"cached_
                       <div class="col-md-12">
                           <div class="row blog-item-2-entry"">
                               <div class="col-md-4">
-                                  <img class="img-responsive" src="images/hug.jpg" alt="Alternate Text" />                               </div>
+                                  <img class="img-responsive" src="http://localhost/images/image/hug.jpg" alt="Alternate Text" />
+                               </div>
                               <div class="col-md-8">
                                   <h5>Story Title</h5>
                                   <h6 class="text-muted">Author: First last Name</h6>
@@ -347,32 +357,27 @@ a:2:{s:9:"mime_type";s:38:"Content-Type: text/html; charset=utf-8";s:11:"cached_
       
      
     </div>
-
-    </div>
+   </div>
+    
     <div class="container-fluid" id="contact">
         <div class="footer">
             <div class="row">
                 <div class="col-md-6 feedback-form">
-                    <form role="form" method="post" action="process.php">
-                        <div class="form-group">
+                    <a name="kformname0"></a><form  role="form" method="post" name="kformname0" action="#kformname0" accept-charset="utf-8">                        <div class="form-group">
                             <label for="full_name">Name: </label>
-                            <input class="form-control"  type="text" value="" name="full_name" placeholder="Full Name" id="full_name" />
+                                                        <input type="text" name="fullname"  id="full_name" value=""  class="form-control" placeholder="Full Name"/>                        </div>
+                        <div class="form-group">
+                                                        <label for="email">Email Address: </label>
+                            <input type="text" name="email"  id="email" value=""  class="form-control" placeholder="yourname@email.end"/>
                         </div>
                         <div class="form-group">
-                            <label for="email">Email Address: </label>
-                            <input class="form-control" type="email" value="" name="email" placeholder="yourname@email.end" id="email" />
+                                                                <label for="subject">Subject: </label>
+                                    <input type="text" name="subject"  id="subject" value=""  class="form-control" placeholder="subject"/>
                         </div>
                         <div class="form-group">
-                            <label for="subject">Subject: </label>
-                            <input class="form-control" type="text" value="" name="subject" placeholder="subject" id="subject" />
-                        </div>
-                         <div class="form-group">
-                            <label for="comments">Comments: </label>
-                            <textarea class="form-control" name="comments" cols="20" rows="3" id="comments" placeholder="your comments here..."></textarea>
-                        </div>
-                        <input class="btn btn-default" type="submit" value="SEND" />
-                    </form>
-                </div>
+                                                        <label for="comments">Comments: </label>
+                            <textarea  name="comments"  id="comments"  class="form-control" cols="20" rows="3" placeholder="your comments here..."></textarea>                        </div>
+                                                <input type="submit" name="submit"  id="submit" value="SEND"  class="btn btn-default"/>                    <input type="hidden" name="k_hid_kformname0" id="k_hid_kformname0" value="kformname0" /></form>                </div>
                 <div class="col-md-6 map">
                     <div class="row">
                         <div class="col-md-12 contacts">
@@ -391,7 +396,7 @@ a:2:{s:9:"mime_type";s:38:"Content-Type: text/html; charset=utf-8";s:11:"cached_
                 <a href="http://www.twitter.com"><i class="fab fa-twitter"></i></a>
                 <a href="http://www.instagram.com"><i class="fab fa-instagram"></i></a>
                 <a href="http://www.youtube.com"><i class="fab fa-youtube"></i></a>
-                <a target="_blank" href="http://localhost/hope_impartation_center/couch/admin.php" ><i class="fa fa-cog"></i></a>
+                <a target="_blank" href="couch/admin.php" ><i class="fa fa-cog"></i></a>
                 
 
 
