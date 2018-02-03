@@ -1,9 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\fonts",
+    "\\couch",
+    "\\css",
     "\\fonts\\css"
   ],
-  "SelectedNode": "\\fonts\\css\\fontawesome-all.css",
+  "SelectedNode": "\\index.php",
   "PreviewInSolutionExplorer": false
 }
