@@ -39,13 +39,13 @@
     // MySQL settings. You need to get this info from your web host.
     // 4.
     // Name of the database
-    define( 'K_DB_NAME', 'information_schema' );
+    define( 'K_DB_NAME', 'hopeimpartationc_trial' );
     // 5.
     // Database username
-    define( 'K_DB_USER', '' );
+    define( 'K_DB_USER', 'hopeimpartationc_root' );
     // 6.
     // Database password
-    define( 'K_DB_PASSWORD', '' );
+    define( 'K_DB_PASSWORD', '@Info2018!' );
     // 7.
     // MySQL hostname (it will usually be 'localhost')
     define( 'K_DB_HOST', 'localhost' );
