@@ -1,0 +1,303 @@
+﻿.navbar{
+    background-color: rgba(12, 12, 12, 0.56);
+    margin:0;
+    padding:.6em 0 .6em 0;
+    border-radius:0;
+    width:100%;
+    
+}
+
+.navbar a{
+    color:rgb(255, 255, 255);
+}
+#navigation a:focus,
+#navigation a:hover{
+   color:#000000;
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus{
+    font-size:1.3em;
+    font-weight:500;
+}
+.jumbotron hr{
+    border:none;
+    height:0.1em;
+    background-color:#000000;  
+}
+.btn-default{
+    background-color:rgba(4, 4, 4, 0.86);
+    color:rgb(255, 255, 255);
+}
+.btn-default:hover,
+.btn-default:focus{
+    background-color:rgba(255, 255, 255, 0.5);
+    color:  rgba(0, 0, 0, 0.84);
+    font-weight:600;
+}
+.jumbotron h4{
+    font-family:'Eras ITC';
+    font-weight:900;
+    text-transform:uppercase;
+    
+}
+.jumbotron-content{
+    background-color:rgba(255, 255, 255, 0.5);
+    padding:3em 2em 3em 2em;
+}
+.icon-bar{
+    background-color:rgb(255, 255, 255);
+}
+
+.jumbotron{
+    padding:3em;
+    background:none;
+    
+}
+.jumbotron h1{
+    margin:0.1em;
+    color:rgba(0, 0, 0, 0.84);
+}
+.jumbotron p{
+    font-size:medium;
+}
+
+#header{
+    background-image:url(../images/pews.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.navbar a span{
+    color:rgb(172, 109, 109);
+}
+
+.event-upcoming,
+.sermon-latest{
+    overflow:auto;
+    display:inline;
+    margin:auto;
+   
+    
+}
+
+.event-upcoming{
+    background-color:rgba(255, 255, 255, 0.5);
+    padding:2em;
+}
+
+.event-upcoming h4{
+    color:rgb(0, 10, 121);
+    
+}
+.event-upcoming hr {
+    background-color: rgb(216, 96, 50);
+    border:none;
+    height:0.1em;
+}
+.event-upcoming span{
+    color:rgb(216, 96, 50);
+}
+.event-upcoming h5{
+    color:#000000;
+}
+
+.shadow1{
+    overflow:auto;
+    box-shadow:rgba(0, 0, 0, 0.76) 0 15px 15px 15px;
+
+   
+}
+
+.shadow2 {
+    overflow: auto;
+    box-shadow: rgba(0, 0, 0, 0.76) 15px 15px 15px;
+}
+
+iframe{
+    width:90%;
+    height:12em;
+    margin:auto 5% auto 5%;
+}
+
+.sermon-latest hr{
+   width:90%;
+}
+
+.sermon-latest {
+    background-color: rgb(216, 96, 50);
+    color:rgb(255, 255, 255);
+    
+}
+
+.event-upcoming li{
+    margin-bottom:0.4em;
+}
+
+ul h5{
+    display:inline;
+    padding:0.3em;
+   
+}
+ul .glyphicon{
+    font-size:x-small;
+    padding:0.5em;
+}
+h4 .glyphicon{
+    font-size:1.2em;
+}
+.sermon-box{
+    width:100%;
+}
+
+#aboutUs {
+    background-color: rgba(232, 232, 232, 0.89);
+    margin-top: 1em;
+   
+}
+
+
+.hug-about img{
+    margin-top:10em;
+    width:100%;
+    height:33em;
+}
+
+.bio-about{
+    padding:4em 3em 2em 2em;
+   
+}
+#wordOfTheDay{
+    background-image:url("../images/cross.jpg");
+    background-size:cover;
+    background-attachment:fixed;
+    
+}
+
+.tint {
+    background-color: rgba(0, 0, 0, 0.34);
+    padding: 5em;
+}
+
+.tint h4, .tint p{
+    color:rgb(255, 255, 255);
+}
+.tint h4{
+    font-weight:900;
+
+}
+
+.tint blockquote {
+        color: rgb(216, 96, 50);
+}
+.row img{
+    margin:1em auto 1em auto;
+}
+
+.bio-about .row img{
+    height:1.2em;
+    width:1.2em;
+    margin-right:0.2em;
+}
+
+#pastoralTeam{
+    background-color:rgb(27, 25, 25);
+    padding:2em;
+}
+
+#pastoralTeam  .row img{
+    height:15em;
+}
+
+#blog{
+   padding:1.5em;
+}
+
+#blog h2, #gallery h2{
+    font-weight:900;
+    color:rgb(66, 53, 48);
+}
+
+#blog .item-blog-1 img, #blog .item-blog-1 p{
+    width:90%;
+   
+}
+#blog .item-blog-1 h4{
+color:rgb(178, 84, 48);
+font-weight:700;
+}
+ #blog .item-blog-1 {
+      padding-right: 0.1em;
+      border-right: solid 0.2em rgb(87, 51, 37);
+
+ }
+
+ .blog-item-2-entry img{
+     width:100%;
+ }
+
+.blog-item-2-entry h5 {
+    color: rgb(164, 77, 43);
+    font-weight: 700;
+}
+
+.blog-item-2-entry >  p{
+    font-size:small;
+}
+
+.blog-item-2-entry{
+    padding:1em 2em 1em 2em;
+}
+
+#contact{
+    background-image:url("../images/church.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+}
+.map {
+    padding: 2em;
+    border-left: solid 0.2em rgb(130, 53, 24);
+    
+    
+}
+.footer{
+    padding:3em;
+    background-color:rgba(0, 0, 0, 0.62);
+    color:rgb(255, 255, 255);
+}
+
+.map iframe{
+    width:95%;
+    margin: 1.5em auto auto auto;
+    height:auto;
+}
+
+.social {
+    background-color: rgba(0, 0, 0, 0.72);
+    margin-top:1.5em;
+    width:100%;
+    padding:1.5em;
+}
+.social a{
+    padding:1em;
+    font-size:2em;
+    color:#fa5a1d;
+}
+
+.contacts h5{
+    margin-bottom:0.5em;
+    font-size:1.2em;
+}
+
+.contacts .glyphicon{
+    margin-right: 1em;
+}
+
+.feedback-form{
+    padding-right:2em;
+}
+
+.val{
+    font-size:small;
+}
